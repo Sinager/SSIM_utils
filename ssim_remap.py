@@ -1,4 +1,4 @@
-# SSIM_filter part of the SSIM_utils
+# SSIM_remap part of the SSIM_utils
 # Copyright 2026 Stefano Sinagra sinager@tarapippo.net
 
 ''' Utility will rename flight numbers into a SSIM file according to a
@@ -132,4 +132,5 @@ with open(infilename) as infile:
             
     outfile.close()
     infile.close()
+
     
