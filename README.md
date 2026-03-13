@@ -10,14 +10,17 @@ Flight XX0123 will be changed into flight YY0789
 Original operating period can be overwritten to new dates.
 You can choose whether to keep in output file non remapped flights.
 
+
 ssim_csv
 
 Will process a SSIM file exporting key data into a CSV file for better human reading, exporting in tables etc.
+
 
 ssim_filter
 
 Utility will process a SSIM file filtering only services we are interested in.
 User can filter by origins, destinations, hub, flight numbers.
+
 
 Usage is via command line and a Python interpeter must be installed on your pc.
 Example:
