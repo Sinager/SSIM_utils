@@ -1,4 +1,4 @@
-# SSIM_filter part of the SSIM_utils
+# ssim_filter part of the SSIM_utils
 # Copyright 2026 Stefano Sinagra sinager@tarapippo.net
 
 ''' Utility will process a SSIM file filtering only services we are interested in.
@@ -165,4 +165,5 @@ with open(infilename) as infile:
             linecount += 1
             
     outfile.close()
+
     infile.close()
