@@ -1,4 +1,4 @@
-# SSIM_filter part of the SSIM_utils
+# ssim_csv part of the SSIM_utils
 # Copyright 2026 Stefano Sinagra sinager@tarapippo.net
 
 ''' Utility will process a SSIM file exporting key data into a CSV file
@@ -57,4 +57,5 @@ with open(infilename) as infile:
                         
     outfile.close()
     infile.close()
+
     
